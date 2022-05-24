@@ -17,8 +17,8 @@
     <h3 th:if="${manipedi == 'manicure'}">Manicure</h3>
     <table>
         <tr>
-            <th:block th:each="facials : ${appropriateFacials}">
-                <td th:text="${facials}"></td>
+            <th:block th:each="facial : ${appropriateFacials}">
+                <td th:text="${facial}"></td>
             </th:block>
         </tr>
     </table>
